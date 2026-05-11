@@ -21,4 +21,5 @@ public class Bot {
 
     @Column(columnDefinition = "TEXT")
     private String personaDescription;
+
 }

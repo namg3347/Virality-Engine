@@ -1,6 +1,5 @@
 package com.redhat.virality.services;
 
-import com.redhat.virality.repositiories.PostRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.StringRedisTemplate;
