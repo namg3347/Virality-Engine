@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: virality-postgres
+    environment:
+      POSTGRES_DB: virality_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5433:5432"
+
+  redis:
+    image: redis:7
+    container_name: virality-redis
+    ports:
+      - "6380:6379"

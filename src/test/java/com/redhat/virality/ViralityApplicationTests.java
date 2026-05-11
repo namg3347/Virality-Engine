@@ -1,0 +1,13 @@
+package com.redhat.virality;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ViralityApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
