@@ -187,11 +187,13 @@ Run the application from IntelliJ or using:
 ```
 
 ---
+## Redis Keys Used
 
-Redis Key:
+```text
 post:{id}:virality_score
 post:{id}:bot_comment_count
 cooldown:bot_{id}:human_{id}
 notif:userId:{id} -throttle key   
 user:{id}:pending_notifs -list of pending notification for all users
 pending_notif_users- set of users
+```
